@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/
+	name="viewport, my page, info, gallery"
+	content="width=device-width, initial-scale=1.0, HTML, CSS"
+	>
+<link href="mypagestyletwo.css" rel="stylesheet" type="text/css">
+<title>Gallery</title>
+
+</head>
+
+<body>
+
+<div id="wrap">
+
+<div id="links">
+<ul>
+<li class="lilinks"><a href="mypagetwo.html" target="_top">Main</a></li>
+<li class="lilinks"><a href="abouttwo.html" target="_top">About</a></li>
+<li class="lilinks"><a href="gallerytwo.html" target="_top">Gallery</a></li>
+<li class="lilinks"><a href="infotwo.html" target="_top">Info</a></li>
+<li class="lilinks"><a href="contacttwo.html" target="_top">Contact</a></li>
+</ul>
+</div>
+
+<div id="header" title="My Page"><br><h1>My page</h1></div>
+
+<div class="centercontainer">
+
+<div class="clearfix">
+<h4>Gallery - every day life</h4>
+</div>
+
+
+<div id="gallery"><p><i>(Click pic)</i></p>
+<a href="galread.jpg" target="_blank"><img src="galread.jpg" class="imggal" alt="Reading" title="Reading"></a>
+<br><a href="galsand.jpg" target="_blank"><img src="galsand.jpg" class="imggal" alt="Sand castle" title="Sand castle"></a>
+<br><a href="galgame.jpg" target="_blank"><img src="galgame.jpg" class="imggal" alt="Games" title="Games" ></a>
+<br><a href="galdraw.jpg" target="_blank"><img src="galdraw.jpg" class="imggal" alt="Drawing" title="Drawing" ></a>
+<br><a href="galmove.jpg" target="_blank"><img src="galmove.jpg" class="imggal" alt="Jumping and climbing" title="Jumping and climbing" ></a>
+
+<br><a href="galpark.jpg" target="_blank"><img src="galpark.jpg" class="imggal" alt="Playground" title="Playground"></a>
+<br><a href="galtoyfood.jpg" target="_blank"><img src="galtoyfood.jpg" class="imggal" alt="Kitchenplay" title="Kitchenplay"></a>
+<br><a href="galfood.jpg" target="_blank"><img src="galfood.jpg" class="imggal" alt="Cooking" title="Cooking"></a>
+<br><a href="galsoup.jpg" target="_blank"><img src="galsoup.jpg" class="imggal" alt="Healthy food" title="Healthy food"></a>
+<br><a href="galeat.jpg" target="_blank"><img src="galeat.jpg" class="imggal" alt="Fun" title="Fun"></a>
+<br>
+
+<video id="kevennys"  controls loop>
+<source src="loppukevennys.mp4" type="video/mp4">
+<source src="loppukevennys.ogg" type="video/ogg">Your browser does not support this video.
+<br>
+</video>
+
+<div id="videobutton">
+<button onclick="playVid()" type="button">Play</button>
+<button onclick="pauseVid()" type="button">Pause</button>
+</div>
+
+<script>
+ var vid = document.getElementById("kevennys");
+	function playVid () { vid.play();}
+	function pauseVid() { vid.pause();}
+</script>
+</div>
+
+</div>
+
+<div id="footer" title="Tmi Jane Doe">Tmi Jane Doe
+					<br>Streetname 25 01000 City
+					<br>0401234567
+					<br>jane.doe@mail.com
+					</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,236 @@
+body { background-color: #a7d0b8;
+	font-family: Verdana;
+	box-sizing:border-box;}
+
+::-webkit-scrollbar {width: 15px;}
+
+::-webkit-scrollbar-track {background: #a7d0b8; }
+
+::-webkit-scrollbar-thumb {background:#93cdd1;  }
+
+::-webkit-scrollbar-thumb:hover {background: #dcdcd7; }
+
+#header {
+	background-color:#e1c1b7;
+	background-image: url(headerleft.png), url(headerright.png);
+	background-position: left bottom, right top;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 150px 120px;
+	width: 80%;
+  	height:auto;
+	margin:auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {	color: #dcdcd7; 
+	font-size:6vw;
+	text-shadow: 10px 10px 10px #b05449;
+	text-align:center;
+	letter-spacing:2px;
+	height:auto;
+	font-weight:bold;
+	padding: 20px;}
+
+#maintext {column-count:2;
+	
+	}
+
+.mainletter {font-size:7vw;}
+
+#links { width: 70%;
+ 	height: auto;
+  	margin-left: auto;
+  	margin-right: auto;
+	position:scroll;
+	}
+
+li.lilinks 	{display:inline;
+	float:left; }
+
+
+.lilinks {	background-color: #e1c1b7;
+	font-size:2vw;
+	padding: 0 4px;
+	margin: 0 4px;
+	font-weight:bold;
+	}
+
+
+#values {color:#d598a0;
+	letter-spacing:3px;
+	font-size:4vw;
+	font-weight:bold;
+	text-align:left;
+	padding:5px;
+	text-shadow: 3px 3px 3px #b05449;
+	}
+
+.livalues {color:#b05449;
+	font-size:3vw;
+	padding: 13px;
+	font-style:italic;}
+
+a:link {color:#d598a0;
+	text-decoration:none;}
+a:visited {color:#d598a0;
+	text-decoration:none;}
+a:hover {color:#93cdd1;
+	background-color:#dcdcd7; 
+	text-decoration:none;}
+a:active {color:#d598a0;
+	text-decoration:none;}
+
+
+
+.centercontainer { 	
+	position: relative;	
+	width: 80%;
+  	overflow:hidden;	
+	margin:auto;
+	background-color: #dcdcd7;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+.clearfix {
+	overflow: auto;
+	margin-top:5px;}
+
+img {	border-radius: 50px;
+	border: 5px dotted #93cdd1;
+	width: 50%;
+  	height: auto;
+	padding: 5px;
+	}
+
+.picright {float:right;
+	margin-right:5px;}
+
+.imggal {border-radius: 100%;
+	border: 5px dotted #d598a0;
+	width: 50%;
+	height:auto;
+	display:block;
+  	margin-left: auto;
+  	margin-right: auto;
+	}
+
+
+img a {backgroung-color:none;}
+
+
+
+#gallery {background-color:#e1c1b7;
+	border-radius: 50px;
+	width: 60% ;
+	
+  	margin-left: auto;
+  	margin-right: auto;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;}
+
+video {margin-bottom:20px;
+	border: 5px dotted #d598a0;
+	padding:5px;
+	width:50%;}
+
+#videobutton {margin-left:auto;
+		margin-right:auto;}
+
+
+h4 { 	color:#d598a0;
+	letter-spacing:3px;
+	font-size:4vw;
+	display:inline;
+	float:left;
+	padding:5px;
+	text-shadow: 3px 3px 3px #b05449;}
+
+p { 	color:#b05449 ;
+	font-size:2vw;
+	text-align: justify;
+	padding: 20px;
+	 }
+
+
+
+#price { width: 85% ;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;}
+	
+caption { color:#d598a0;
+	letter-spacing:3px;
+	font-size:4vw;
+	font-weight:bold;
+	text-shadow: 3px 3px 3px #b05449;
+	padding: 25px;}
+
+table { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #b05449;
+	background-color: #dcdcd7;
+	font-size:2vw;
+	text-align: center;
+	padding:4px;
+	border-spacing: 0;}
+
+td { padding: 8px;}
+
+.realprice { font-weight: bold;}
+
+.smalltext { font-size:1.5vw;}
+
+.italic	{ font-style: italic;}
+
+.one {background-color: #e1c1b7;
+	color: #b05449;}
+
+.two { background-color: #dcdcd7;
+	color: #b05449;}
+
+
+#infopicbottom {padding: 5px; 
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		margin-bottom:15px;}
+
+#contactpicmiddle {display: block;
+	width: 80%;
+	margin-top:5px;
+ 	 margin-left: auto;
+  	margin-right: auto;}
+
+#aboutmiddle {	display: block;
+		margin-top:5px;
+ 	 	margin-left: auto;
+  		margin-right: auto;}
+
+#address { position: relative;
+  	text-align: center;}
+
+#addresstext {
+	color: #b05449;
+	position: absolute;
+  	top: 65%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	font-weight:bold;
+	font-size:3vw;}
+
+#footer { text-align:center;
+	letter-spacing:3px;
+	word-spacing: 3px;
+	color:#b05449;
+	font-size:2vw;
+	font-weight:bold;
+	width: 80%;
+  	height: auto;
+	background-color:#d598a0;
+	padding: 15px 0;
+	margin:auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
